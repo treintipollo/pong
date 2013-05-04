@@ -1,0 +1,26 @@
+{
+  "name": "pong",
+  "description": "Pong",
+  "version": "0.0.1",
+  "maintainers": [
+    {
+      "name": "Diego Marquez"
+    },
+    {
+      "name": "Hakan Ensari"
+    }
+  ],
+  "contributors": [],
+  "bugs": {
+    "url": ""
+  },
+  "licenses": {},
+  "repositories": {},
+  "dependencies": {
+    "socket.io": "0.9.x"
+  },
+  "homepage": "",
+  "engines": {
+    "node": ">= 0.10.0"
+  }
+}
