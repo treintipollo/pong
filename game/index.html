@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Ping Pong Prototype</title>
+
+	<link href='http://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="styles/main.css" />
+</head>
+<body>
+
+	<div id="main">
+		<canvas id="game" width="450" height="700">
+			Sorry, your web browser does not support Canvas content.
+		</canvas>		
+
+		<div id="hud">
+			<div id="player1"  class="hudText">0</div>
+			<div id="player2"  class="hudText">0</div>
+		</div>
+	</div>
+
+	<script src="libs/jquery-1.8.3.min.js"></script>
+	<script src="libs/TweenMax.js"></script>
+	<script src="libs/TimelineLite.min.js"></script>
+	<script src="libs/BezierPlugin.min.js"></script>
+	<script src="libs/ColorPropsPlugin.min.js"></script>
+	<script src="libs/ShortRotationPlugin.js"></script>
+	<script src="libs/SAT.js"></script>
+
+	<script src="scripts/Core/GameObject.js"></script>
+	<script src="scripts/Core/ObjectsContainer.js"></script>
+	<script src="scripts/Core/TimeOutFactory.js"></script>
+	<script src="scripts/Core/StateMachine.js"></script>
+	<script src="scripts/Core/CoreUtils.js"></script>
+	
+	<script src="scripts/Utilities/MiscMethodsUtils.js"></script>
+	<script src="scripts/Utilities/GameObjectsUtils.js"></script>
+	
+	<script src="scripts/Input/ArrowKeyHandler.js"></script>
+
+	<script src="scripts/GameObjects/paddle.js"></script>
+	<script src="scripts/GameObjects/ball.js"></script>
+	<script src="scripts/GameObjects/border.js"></script>
+
+	<script src="scripts/main.js"></script>
+</body>
+</html>
